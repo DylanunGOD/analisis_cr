@@ -1,0 +1,14 @@
+
+# --- Manipulacion y analisis de datos -----------------------
+pandas>=2.2,<3.0          # carga de CSV (data/raw), merges, groupby, to_csv
+numpy>=1.26,<3.0          # operaciones vectorizadas y algebra
+
+# --- Estadistica y optimizacion -----------------------------
+scipy>=1.11               # scipy.stats (zscore, tests), scipy.optimize (linprog, milp)
+
+# --- Machine Learning ---------------------------------------
+scikit-learn>=1.4
+
+# --- Visualizacion ------------------------------------------
+matplotlib>=3.8
+seaborn>=0.13
