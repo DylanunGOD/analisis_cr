@@ -1,0 +1,10 @@
+timestamp,dataset,step,script,input,output,rows_before,rows_after,rows_removed,pct_removed,columns,details
+2026-09-25T11:33:59,olist_customers_dataset,drop_duplicates,clean_duplicates.py,data/raw/olist_customers_dataset.csv,data/interim/olist_customers_dataset.csv,99441,99441,0,0.0,5,exact duplicates across all columns
+2026-09-25T11:33:59,olist_geolocation_dataset,drop_duplicates,clean_duplicates.py,data/raw/olist_geolocation_dataset.csv,data/interim/olist_geolocation_dataset.csv,1000163,738332,261831,26.18,5,exact duplicates across all columns
+2026-09-25T11:33:59,olist_order_items_dataset,drop_duplicates,clean_duplicates.py,data/raw/olist_order_items_dataset.csv,data/interim/olist_order_items_dataset.csv,112650,112650,0,0.0,7,exact duplicates across all columns
+2026-09-25T11:33:59,olist_order_payments_dataset,drop_duplicates,clean_duplicates.py,data/raw/olist_order_payments_dataset.csv,data/interim/olist_order_payments_dataset.csv,103886,103886,0,0.0,5,exact duplicates across all columns
+2026-09-25T11:33:59,olist_order_reviews_dataset,drop_duplicates,clean_duplicates.py,data/raw/olist_order_reviews_dataset.csv,data/interim/olist_order_reviews_dataset.csv,99224,99224,0,0.0,7,exact duplicates across all columns
+2026-09-25T11:33:59,olist_orders_dataset,drop_duplicates,clean_duplicates.py,data/raw/olist_orders_dataset.csv,data/interim/olist_orders_dataset.csv,99441,99441,0,0.0,8,exact duplicates across all columns
+2026-09-25T11:33:59,olist_products_dataset,drop_duplicates,clean_duplicates.py,data/raw/olist_products_dataset.csv,data/interim/olist_products_dataset.csv,32951,32951,0,0.0,9,exact duplicates across all columns
+2026-09-25T11:33:59,olist_sellers_dataset,drop_duplicates,clean_duplicates.py,data/raw/olist_sellers_dataset.csv,data/interim/olist_sellers_dataset.csv,3095,3095,0,0.0,4,exact duplicates across all columns
+2026-09-25T11:33:59,product_category_name_translation,drop_duplicates,clean_duplicates.py,data/raw/product_category_name_translation.csv,data/interim/product_category_name_translation.csv,71,71,0,0.0,2,exact duplicates across all columns

@@ -1,0 +1,53 @@
+dataset,column,dtype,is_object,nulls,pct_nulls,non_nulls,unique_values,sample
+olist_customers_dataset,customer_id,object,True,0,0.0,99441,99441,06b8999e2fba1a1fbc88172c00ba8bc7
+olist_customers_dataset,customer_unique_id,object,True,0,0.0,99441,96096,861eff4711a542e4b93843c6dd7febb0
+olist_customers_dataset,customer_zip_code_prefix,int64,False,0,0.0,99441,14994,14409
+olist_customers_dataset,customer_city,object,True,0,0.0,99441,4119,franca
+olist_customers_dataset,customer_state,object,True,0,0.0,99441,27,SP
+olist_geolocation_dataset,geolocation_zip_code_prefix,int64,False,0,0.0,1000163,19015,1037
+olist_geolocation_dataset,geolocation_lat,float64,False,0,0.0,1000163,717360,-23.54562128115268
+olist_geolocation_dataset,geolocation_lng,float64,False,0,0.0,1000163,717613,-46.63929204800168
+olist_geolocation_dataset,geolocation_city,object,True,0,0.0,1000163,8011,sao paulo
+olist_geolocation_dataset,geolocation_state,object,True,0,0.0,1000163,27,SP
+olist_order_items_dataset,order_id,object,True,0,0.0,112650,98666,00010242fe8c5a6d1ba2dd792cb16214
+olist_order_items_dataset,order_item_id,int64,False,0,0.0,112650,21,1
+olist_order_items_dataset,product_id,object,True,0,0.0,112650,32951,4244733e06e7ecb4970a6e2683c13e61
+olist_order_items_dataset,seller_id,object,True,0,0.0,112650,3095,48436dade18ac8b2bce089ec2a041202
+olist_order_items_dataset,shipping_limit_date,object,True,0,0.0,112650,93318,2017-09-19 09:45:35
+olist_order_items_dataset,price,float64,False,0,0.0,112650,5968,58.9
+olist_order_items_dataset,freight_value,float64,False,0,0.0,112650,6999,13.29
+olist_order_payments_dataset,order_id,object,True,0,0.0,103886,99440,b81ef226f3fe1789b1e8b2acac839d17
+olist_order_payments_dataset,payment_sequential,int64,False,0,0.0,103886,29,1
+olist_order_payments_dataset,payment_type,object,True,0,0.0,103886,5,credit_card
+olist_order_payments_dataset,payment_installments,int64,False,0,0.0,103886,24,8
+olist_order_payments_dataset,payment_value,float64,False,0,0.0,103886,29077,99.33
+olist_order_reviews_dataset,review_id,object,True,0,0.0,99224,98410,7bc2406110b926393aa56f80a40eba40
+olist_order_reviews_dataset,order_id,object,True,0,0.0,99224,98673,73fc7af87114b39712e6da79b0a377eb
+olist_order_reviews_dataset,review_score,int64,False,0,0.0,99224,5,4
+olist_order_reviews_dataset,review_comment_title,object,True,87656,88.34,11568,4527,recomendo
+olist_order_reviews_dataset,review_comment_message,object,True,58247,58.7,40977,36159,Recebi bem antes do prazo estipulado.
+olist_order_reviews_dataset,review_creation_date,object,True,0,0.0,99224,636,2018-01-18 00:00:00
+olist_order_reviews_dataset,review_answer_timestamp,object,True,0,0.0,99224,98248,2018-01-18 21:46:59
+olist_orders_dataset,order_id,object,True,0,0.0,99441,99441,e481f51cbdc54678b7cc49136f2d6af7
+olist_orders_dataset,customer_id,object,True,0,0.0,99441,99441,9ef432eb6251297304e76186b10a928d
+olist_orders_dataset,order_status,object,True,0,0.0,99441,8,delivered
+olist_orders_dataset,order_purchase_timestamp,object,True,0,0.0,99441,98875,2017-10-02 10:56:33
+olist_orders_dataset,order_approved_at,object,True,160,0.16,99281,90733,2017-10-02 11:07:15
+olist_orders_dataset,order_delivered_carrier_date,object,True,1783,1.79,97658,81018,2017-10-04 19:55:00
+olist_orders_dataset,order_delivered_customer_date,object,True,2965,2.98,96476,95664,2017-10-10 21:25:13
+olist_orders_dataset,order_estimated_delivery_date,object,True,0,0.0,99441,459,2017-10-18 00:00:00
+olist_products_dataset,product_id,object,True,0,0.0,32951,32951,1e9e8ef04dbcff4541ed26657ea517e5
+olist_products_dataset,product_category_name,object,True,610,1.85,32341,73,perfumaria
+olist_products_dataset,product_name_lenght,float64,False,610,1.85,32341,66,40.0
+olist_products_dataset,product_description_lenght,float64,False,610,1.85,32341,2960,287.0
+olist_products_dataset,product_photos_qty,float64,False,610,1.85,32341,19,1.0
+olist_products_dataset,product_weight_g,float64,False,2,0.01,32949,2204,225.0
+olist_products_dataset,product_length_cm,float64,False,2,0.01,32949,99,16.0
+olist_products_dataset,product_height_cm,float64,False,2,0.01,32949,102,10.0
+olist_products_dataset,product_width_cm,float64,False,2,0.01,32949,95,14.0
+olist_sellers_dataset,seller_id,object,True,0,0.0,3095,3095,3442f8959a84dea7ee197c632cb2df15
+olist_sellers_dataset,seller_zip_code_prefix,int64,False,0,0.0,3095,2246,13023
+olist_sellers_dataset,seller_city,object,True,0,0.0,3095,611,campinas
+olist_sellers_dataset,seller_state,object,True,0,0.0,3095,23,SP
+product_category_name_translation,product_category_name,object,True,0,0.0,71,71,beleza_saude
+product_category_name_translation,product_category_name_english,object,True,0,0.0,71,71,health_beauty

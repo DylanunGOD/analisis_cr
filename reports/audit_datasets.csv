@@ -1,0 +1,10 @@
+dataset,rows,columns,object_columns,numeric_columns,columns_with_nulls,null_cells,pct_null_cells,duplicate_rows,pct_duplicate_rows,memory_mb,dtypes
+olist_customers_dataset,99441,5,4,1,0,0,0.0,0,0.0,26.6,"object=4, int64=1"
+olist_geolocation_dataset,1000163,5,2,3,0,0,0.0,261831,26.18,130.3,"float64=2, object=2, int64=1"
+olist_order_items_dataset,112650,7,4,3,0,0,0.0,0,0.0,36.0,"object=4, float64=2, int64=1"
+olist_order_payments_dataset,103886,5,2,3,0,0,0.0,0,0.0,16.2,"object=2, int64=2, float64=1"
+olist_order_reviews_dataset,99224,7,6,1,2,145903,21.01,0,0.0,39.1,"object=6, int64=1"
+olist_orders_dataset,99441,8,8,0,3,4908,0.62,0,0.0,52.9,object=8
+olist_products_dataset,32951,9,2,7,8,2448,0.83,0,0.0,6.3,"float64=7, object=2"
+olist_sellers_dataset,3095,4,3,1,0,0,0.0,0,0.0,0.6,"object=3, int64=1"
+product_category_name_translation,71,2,2,0,0,0,0.0,0,0.0,0.0,object=2
